@@ -10,8 +10,11 @@ public class ChangeMakerAPP
 
         double[] change = {20, 10, 5, 1 , .25, .10, .05, .01};
 
-        double itemPrice = 42;
-        double cashPaid = 69;
+        System.out.println("Price of item?");
+        double itemPrice = console.nextDouble();
+
+        System.out.println("Amount tendered?");
+        double cashPaid = console.nextDouble();
 
         makeChange(itemPrice , cashPaid);
 
